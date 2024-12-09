@@ -1,5 +1,5 @@
-package example
+package k8s
 
 type ApiGroup struct {
-	ExampleApi
+	PodApi
 }

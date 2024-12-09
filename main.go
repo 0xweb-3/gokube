@@ -9,5 +9,7 @@ import (
 func main() {
 	initiallize.Viper()
 	r := initiallize.Routers()
+
+	//initiallize.K8S()
 	panic(r.Run(fmt.Sprintf("%s:%s", global.CONF.System.Addr, global.CONF.System.Port)))
 }
