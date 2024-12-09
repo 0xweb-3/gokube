@@ -30,3 +30,6 @@ pkg
 .idea
 
 go.sum
+
+# 所有打包后的文件
+*_app
